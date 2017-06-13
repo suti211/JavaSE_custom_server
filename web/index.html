@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Title of the document</title>
+</head>
+
+<body>
+Content of the document......
+<form action="/user" method="POST">
+	POST REQUEST:
+	data: <input type="hidden" name="data" value="POST" >
+	<input type="submit" value="send">
+</form>
+<br>
+<form action="/user" method="GET">
+	GET REQUEST:
+	data: <input type="hidden" name="data">
+	<input type="submit" value="send">
+</form>
+<br>
+<form action="/user" method="POST">
+	DELETE REQUEST:
+	data: <input type="hidden" name="data" value="DELETE">
+	<input type="submit" value="send">
+</form>
+<br>
+<form action="/user" method="POST">
+	PUT REQUEST:
+	data: <input type="hidden" name="data" value="PUT">
+	<input type="submit" value="send">
+</form>
+</body>
+
+</html>
